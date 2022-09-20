@@ -297,8 +297,7 @@ def xyz():
         main_system()
     else:
         os.system("clear")
-        
-    else:
+   else:
         print('\033[1;31mINCORECT OPTION!\033[1;31m')
         xyz()
 #---------------------[PASS DEF]---------------------#
@@ -424,7 +423,7 @@ def free1(uid,pwx,tl):
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     uid=coki[24:39]
                     os.system("play-audio 𝙰𝙺𝙰𝚂𝙷_2F.mp3")
-                    print('\r\033[1;34m[𝙰𝙺𝙰𝚂𝙷-2F] '+uid+' [~] '+ps+' ')
+                    print('\r\033[1;34m[𝙰𝙺??𝚂𝙷-2F] '+uid+' [~] '+ps+' ')
                     open('/sdcard/𝙰𝙺𝙰𝚂𝙷-2F.txt', 'a').write(uid+' | '+ps+'\n')
                     twf.append(uid)
                 else:
