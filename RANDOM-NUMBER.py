@@ -291,11 +291,7 @@ def xyz():
     print(f"")
     print(f"\033[1;91m========================================================")
     RAKIB= input("[√] CHOOSE : ")
-    def main_apv():
-    imt="+RAKIB=="
-    os.system('clear')
-    print logo
-    try:
+    
         key1=open("/sdcard/RAKIB.txt",'r').read()
     except IOError:
         os.system("clear")
