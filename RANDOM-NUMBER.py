@@ -292,20 +292,6 @@ def xyz():
     print(f"\033[1;91m========================================================")
     RAKIB= input("[√] CHOOSE : ")
     
-        key1=open("/sdcard/RAKIB.txt",'r').read()
-    except IOError:
-        os.system("clear")
-        print logo
-        print ("           You dont have subscrption")
-        print ("           Contact To Admin For You're Subscription")
-        print ("")
-        myid=uuid.uuid4().hex[:10]
-        print ("         YOUR KEY : "+myid+imt)
-        kok=open("/sdcard/RAKIB.txt",'w')
-        kok.write(myid+imt)
-        kok.close()
-        print ("")
-        
     r1=requests.get("https://github.com/MRR4AKIB-405/pro.cloning/blob/main/Key%20approve").text
     if key1 in r1:
         main_system()
