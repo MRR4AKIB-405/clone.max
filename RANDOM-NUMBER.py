@@ -309,39 +309,13 @@ def xyz():
         kok.write(myid+imt)
         kok.close()
         print ("")
-        print ("'\x1b[1;91m'           This Is Your Key 🗝️👆")
-        print ("'\x1b[1;93m'           Copy The Key in Send Me on WhatsApp ")
-        print ("")
-        print ("")
-        print ("")
-        print('\x1b[1;92mIf You Subscribe your Key 🗝️")
-        raw_input("then Exit The Termux And Put The Commond And run Again Thanks"")
-        os.system("xdg-open https://wa.me/+923189339494")
         
     r1=requests.get("https://github.com/MRR4AKIB-405/pro.cloning/blob/main/Key%20approve").text
     if key1 in r1:
         main_system()
     else:
         os.system("clear")
-        print logo
-        print ("\x1b[1;94mYou dont have subscrption")
-        print ("\x1b[1;94mPress Enter To Subscribe Your key")
-        print (\x1b[1;94mAnd Contact Me On Whatsapp Thanks")
-        print ("")
-        print ("YOUR KEY:"+key1)
-        print ("")
-        print ("                                              "\x1b[1;94mThis is Your key")
-        print ("\x1b[1;94m                             "Copy Your KeyAnd Send To The Admin On Whatsapp")
-        print ("")
-        print ("")
-        print ("")
-        print ("\x1b[1;94m                  " If You Subscribe Your Key")
-        raw_input("Then Exit the Termux Putt The Commond And Run Again")
-        os.system("xdg-open https://wa.me/+923189339494")
         
-        
-        
-    
     else:
         print('\033[1;31mINCORECT OPTION!\033[1;31m')
         xyz()
